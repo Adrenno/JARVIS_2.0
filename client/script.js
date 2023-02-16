@@ -76,7 +76,7 @@ const handleSubmit=async(e) => {
   loader(messageDiv);
 
   //fetch data from server (get bot response)
-  const response=await fetch('http://localhost:5000', {
+  const response=await fetch('https://j-a-r-v-i-s-2-0.onrender.com', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
